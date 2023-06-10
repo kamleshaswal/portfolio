@@ -97,13 +97,25 @@
             transform: none;
             padding: 10px;
             box-sizing: border-box;
-        }
+            }
 
         .flat-button {
-            float: none;
             display: block;
             margin: 20px auto 0 auto;
             width: 125px;
+            color: #ffd700;
+            font-family: sans-serif;
+            border: 1px solid #ffd700;
+            animation: fadeIn 1s 1.8s backwards;
+            white-space: nowrap;
+            float: none;
+           
+
+            &:hover{
+                cursor: pointer;
+                background: #ffd700;
+                color: #333;
+            }
         }
     }
 }
