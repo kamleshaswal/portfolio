@@ -81,7 +81,6 @@
             color: #333;
         }
     }
-}
 
 @media screen and (max-width: 1200px) {
     .tags, 
@@ -109,13 +108,13 @@
             animation: fadeIn 1s 1.8s backwards;
             white-space: nowrap;
             float: none;
-           
+            
 
+                   
             &:hover{
-                cursor: pointer;
                 background: #ffd700;
                 color: #333;
             }
         }
     }
-}
+}}
