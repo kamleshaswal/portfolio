@@ -80,7 +80,8 @@
             background: #ffd700;
             color: #333;
         }
-    }}
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .tags, 
@@ -96,6 +97,10 @@
             transform: none;
             padding: 10px;
             box-sizing: border-box;
+            }
+
+            .logo-container {
+                display: none;
             }
 
         .flat-button {
