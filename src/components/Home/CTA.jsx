@@ -5,7 +5,7 @@ import './index.scss';
 const CTA = () => {
   return (
     <>
-        <a href={Resume} download className='flat-button'>DOWNLOAD</a>
+        <a href={Resume} download className='flat-button'>DOWNLOAD CV</a>
     </>
   )
 }
