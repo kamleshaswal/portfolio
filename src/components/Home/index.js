@@ -6,6 +6,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect } from 'react';
 import Logo from './Logo';
 import Loader from 'react-loaders';
+import CTA from './CTA';
 
 const Home = () => {
 
@@ -42,6 +43,7 @@ const Home = () => {
                 </h1>
                 <h2>Frontend Developer / JavaScript Expert</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                <CTA />
             </div>
             <Logo />
         </div>
