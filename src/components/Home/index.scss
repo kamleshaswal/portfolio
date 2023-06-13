@@ -82,6 +82,28 @@
             color: #333;
         }
     }
+
+    .download-button{
+        color: #333;
+        background: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        margin-left: 20px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #022c43;
+            color: #ffd700;
+        }
+    }
 }
 
 @media screen and (max-width: 1200px) {
