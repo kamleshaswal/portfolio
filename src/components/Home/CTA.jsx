@@ -21,7 +21,7 @@ import './style.scss';
 Modal.setAppElement('#root'); // Set the root element for accessibility
 
 const CTA = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [ setModalIsOpen] = useState(false);
 
   const openModal = () => {
     const newWindow = window.open(ResumePDF, "_blank", "fullscreen=yes")
