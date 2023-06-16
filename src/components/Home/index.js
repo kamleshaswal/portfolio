@@ -4,9 +4,10 @@ import './index.scss';
 import { useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect } from 'react';
-import Logo from './Logo';
+import Carosoul from './Carosoul';
 import Loader from 'react-loaders';
 import CTA from './CTA';
+
 
 const Home = () => {
 
@@ -44,8 +45,9 @@ const Home = () => {
                 <h2>Frontend Developer / JavaScript Expert</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 <CTA />
+                
             </div>
-            <Logo />
+            <Carosoul />
         </div>
         <Loader type="pacman"/>
         </>

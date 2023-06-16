@@ -1,0 +1,34 @@
+.image-container {
+    z-index: 0;
+    width: 500px;
+    height: 709px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    // transform: translateY(50%);
+    bottom: 0;
+    left: auto;
+    margin: auto;
+  
+    // svg {
+    //   width: 100%;
+    //   height: auto;
+    //   bottom: 0;
+    //   // transform: rotateZ(30deg) !important;
+    // }
+  
+    .image1 {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+      width: 100%;
+      z-index: 1;
+      border-radius: 50%;
+    }
+  }
+  
+  
+  
